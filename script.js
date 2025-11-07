@@ -12,13 +12,13 @@ addItemButton.addEventListener("click", function () {
     return;
   }
 
-  cart.push(item); // Add item to cart array
+  cart.push(item); // Add item to cart 
   renderCart();
   itemInput.value = ""; // Clear the input field
 });
 
 removeItemButton.addEventListener("click", function () {
-  cart.pop(); // Remove last item from cart array
+  cart.pop(); // Remove last item from cart 
   renderCart();
 });
 
