@@ -1,0 +1,113 @@
+/* === Global Page Styles === */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6fa;
+  text-align: center;
+  padding: 40px;
+  margin: 0;
+  color: #333;
+}
+
+main {
+  background: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* === Header === */
+h1 {
+  color: #222;
+  margin-bottom: 20px;
+}
+
+/* === Input & Label === */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+/* === Buttons === */
+.buttons {
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 6px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.danger {
+  background-color: #dc3545;
+}
+
+button.danger:hover {
+  background-color: #b02a37;
+}
+
+/* === Item Count === */
+#itemCount {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+/* === Cart List === */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  background-color: #fff;
+  padding: 12px;
+  margin: 6px auto;
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 15px;
+  text-align: left;
+}
+
+/* === Responsive Design === */
+@media (max-width: 600px) {
+  main {
+    width: 90%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  li {
+    width: 100%;
+  }
+}
